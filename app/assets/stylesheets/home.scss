@@ -1,0 +1,32 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.home{
+	background: url("https://images.unsplash.com/photo-1468293865354-622d43e66649?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=75f6c3d0113efeb393277edac8aac490") no-repeat fixed;
+  background-size: cover;
+  /*border: solid rgba(255, 255, 255, .8) 1em;*/
+  margin: .5em;
+}
+html {
+	background: #233c38 url('http://goo.gl/5wJBu') 50% 50%;
+	background-attachment: fixed;
+	background-size: cover;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+	color: #fff;
+}
+.tit h1 {
+	margin-top: 200px;
+	color: white;
+  width: 100%;
+  font: 5em 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.tit{
+	text-align: center;
+	color: green;
+	font: sans-serif;
+}

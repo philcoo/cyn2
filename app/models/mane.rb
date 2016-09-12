@@ -1,0 +1,2 @@
+class Mane < ApplicationRecord
+end
