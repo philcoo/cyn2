@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'home/contact'
   get 'home/blog'
+  get 'orders/contact'
  
  
 
