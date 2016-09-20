@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'home/home'
 
   resources :orders
-  resources :orders 
+ 
   get 'home/about'
   get 'home/index'
   get 'home/contact'
