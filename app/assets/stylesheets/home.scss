@@ -25,15 +25,20 @@ html {
 .tit h4{
     width:100%;
     height:1px;
-    margin-top: 8.1%;
+    margin-top: 4.5%;
     padding-bottom:20%;
+    border:solid;
     background-size: cover;
     position: relative;
     color: green;
     font-size: 35px;
     font-family: 'Tangerine', serif;
 	  text-align: center;
+    background:white;
+
+
 }
+
 .icon2{
   font-size: 3.5em;
   margin-top: 2%;
@@ -44,3 +49,6 @@ html {
       height: 25em;
  }
 
+.showcase{
+  color:orange;
+}
