@@ -1,107 +1,64 @@
-.contact-form{
-  position: absolute;
-  top:10%;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
-.contact-form *{
-  font-family: Segoe UI;
-  font-weight: lighter;
-}
-
-.contact-form h1{
-  width: 100%;
+.ccheader {
+  margin-top:5%;
+  margin-bottom: 1%;
+  padding: 2em;
   text-align: center;
+  background-image: url("blog6.jpg");
+  margin-left: 35%;
+  margin-right: 35%;
+  background: cover;
 }
 
-.field{
-  width: 300px;
-  height: 40px;
-  margin-bottom: 20px;
-  transition: all .3s ease-in-out;
+
+/* Form CSS*/
+.ccform {
+   margin: 0 auto;
+    width: 70%;
+}
+.ccfield-prepend{
+  margin-bottom:10px;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
-.field *{
-  width: 300px;
-  height: 40px;
-  margin: 0;
-  padding: 0;
-  border: none;
-  position: absolute;
-  left:0;
+.ccform-addon{
+  color:green; 
+  float:left;
+  padding:8px;
+  width:8%;
+  background:white;
+  text-align:center;  
 }
 
-.field-expanded.message-box{
-  height: 230px!important;
+.ccformfield { 
+ background-image: url("cyn1.jpg");
+  border:none;
+  padding:15.5px;
+  width:95.9%;
+  height: 20%;
+  display:block;
+  font-family: 'Lato',Arial,sans-serif;
+  font-size:14px;
 }
 
-.field .text-area{
-  background-color: #322d29;
-  font-size: 12px;
-  color: #827e75; 
-  font-family: Roboto, arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol', Symbola, EmojiSymbols !important;
-  
-  transform: translateX(0px);
-  -webkit-transition: all 0.3s ease-in-out;
+.ccformfield {
+  font-family: 'Lato',Arial,sans-serif;
 }
-.field input:focus{outline:none;}
+.ccbtn{
+  display:block;
+  border:none;
+  background:#f8ae45;
+  float:right;
+  color:white;
+  padding:10px;
+}
+.ccbtn:hover{
+  background:#d8850e;
 
-.field label{
-  color: #fff;
-  background-color: #313a3d;
-  font-size: 1.45em;
-	letter-spacing: 0.075em;
+}
+.icon{
+  font-size: 3.5em;
+  margin-top: 8%;
   text-align: center;
-  transform: translateX(0px);
-  -webkit-transition: all 0.3s ease-in-out;
-  padding: auto;
-}
-
-.field-expanded label{
-  background-color: #902727;
-  width: 150px;
-  transform: translateX(-75px);
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.field-expanded .text-area{
-  padding-left: 15px;
-  transform: translateX(75px);
-  -webkit-transition: all 0.3s ease-in-out;
-}
-
-.message-box:hover .text-area{
-  height: 200px;
-  padding: 15px;
-}
-
-.field-expanded #message{
-  height: 200px;
-  padding: 15px;
-  padding-right:0;
-}
-
-.contact-submit{
-  width: 100px;
-  height: 40px;
-  border: none;
-  outline: none;
-  background-color: #313a3d;
-  color:#fff;
-  font-size: 1.45em;
-	letter-spacing: 0.075em;
-  
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-.contact-submit:hover{
-  background-color: #902727;
-  transition: all .1s ease-in-out;
-}
-
-.contact-submit:active{
-  transform: scale(1.05) translateX(-50%);
-  transition: all .1s ease-in-out;
 }
