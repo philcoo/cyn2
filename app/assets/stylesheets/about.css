@@ -1,13 +1,14 @@
 #me{
 	text-align: center;
 	color: orange; 
+    font-family: impact;
 }
 .cyns{
 
 float: right;
 width: 1350px;
 margin-left: 12em;
-margin-top: 1.2em;
+margin-top: .1em;
 display: flex;
 flex-direction: row;
 justify-content: left;
@@ -17,12 +18,17 @@ opacity: 1px;
 
 
 }
-.cyns p{
+.cyns p {
     padding-bottom:25px;
     padding-left: 35px;
-    padding-right: 95px;
-    margin-right: 20%;
+    margin-right:25%;
+    margin-left: -15%;
 
+
+}
+.cyns h3{
+     margin-right:25%;
+    margin-left: -15%;
 
 }
 
@@ -31,12 +37,12 @@ opacity: 1px;
     
     
     background-size: cover; 
-    font-size: 15px;
+    font-size: 18.9px;
 
 
 }
 #about{
-    margin-right: 15em;
+    margin-right: 35em;
     float: right;
 
 }
@@ -44,19 +50,19 @@ opacity: 1px;
 
 float: right;
 font-size: 20px;
-width: 450px;
+width: 350px;
 display: flex;
 flex-direction: row;
 justify-content: left;
-margin-top: 30em;
-margin-right: -23.5em;
+margin-top: 20em;
+margin-right: -18.5em;
 color: white;
 
 
 
 }
 .footer {
-  margin-top: 75em;
+  margin-top: 65em;
 
   right: 0;
   bottom: 0;
