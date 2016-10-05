@@ -3,23 +3,26 @@
 	color: orange; 
 }
 .cyns{
-position: absolute;
+
 float: right;
-width: 650px;
-margin-left: 22em;
+width: 1350px;
+margin-left: 12em;
+margin-top: 1.2em;
 display: flex;
 flex-direction: row;
 justify-content: left;
-border: solid;
+
 color: white;
 opacity: 1px;
 
 
 }
 .cyns p{
-    padding-bottom:5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-bottom:25px;
+    padding-left: 35px;
+    padding-right: 95px;
+    margin-right: 20%;
+
 
 }
 
@@ -53,7 +56,7 @@ color: white;
 
 }
 .footer {
-  margin-top: 900em;
+  margin-top: 75em;
 
   right: 0;
   bottom: 0;
