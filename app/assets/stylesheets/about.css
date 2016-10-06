@@ -16,75 +16,28 @@
     font-family: impact; 
 }
 .cyns{
-
-float: right;
-width: 1350px;
-margin-left: 2em;
-margin-top: 1em;
-display: flex;
-flex-direction: row;
-justify-content: left;
+width: 1450px;
 color: black;
 background:  #b76e79;
 opacity: 0.6;
+padding-left: 2em;
+margin-left: 20em;
 
 
 }
-.cyns p h3{
-    padding-bottom:25px;
-    padding-left: 35px;
-    margin-right:25%;
-    margin-left: -35%;
-
-
-}
-
-/*s*/
-.cyns {
-    
-    
-    background-size: cover; 
-    font-size: 18px;
-
 
 }
 #about{
-    margin-right: 35em;
-    float: right;
-
-}
-.me1{
-
 float: right;
-font-size: 20px;
-width: 650px;
-display: flex;
 flex-direction: row;
 justify-content: left;
-margin-top: 25em;
-margin-right: -35.5em;
-color: white;
-padding-left: 4em;
-background: #b76e79;
-opacity: 0.3;
-
-
-
-}
-#about{
-    float: right;
-    flex-direction: row;
-justify-content: left;
-margin-top: 5em;
+margin-top: 2em;
 margin-right: 25.5em;
 padding-left: 6em;
 
-
-
 }
 .footer {
-  margin-top: 75em;
-
+  margin-top: 10em;
   right: 0;
   bottom: 0;
   left: 0;
