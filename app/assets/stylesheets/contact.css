@@ -1,64 +1,31 @@
 
-.ccheader {
-  margin-top:5%;
-  margin-bottom: 1%;
-  padding: 2em;
-  text-align: center;
-  background-image: url("blog6.jpg");
-  margin-left: 35%;
-  margin-right: 35%;
-  background: cover;
+    
+#form{
+  font-size: 1.2em;
+  width: 50%;
+  margin: 10em 25em 20em 25em;
+  height: 600px;
+  padding:2.5em 1em .8em 1em;
+  background:black;
+  opacity: 0.6;
+  outline: none;
+  color: #008080;
 }
-
-
-/* Form CSS*/
-.ccform {
-   margin: 0 auto;
-    width: 70%;
+.icon1{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
 }
-.ccfield-prepend{
-  margin-bottom:10px;
-  margin-right: 25%;
-  margin-left: 25%;
-}
-
-.ccform-addon{
-  color:green; 
-  float:left;
-  padding:8px;
-  width:8%;
-  background:white;
-  text-align:center;  
-}
-
-.ccformfield { 
- background-image: url("cyn1.jpg");
-  border:none;
-  padding:15.5px;
-  width:95.9%;
-  height: 20%;
-  display:block;
-  font-family: 'Lato',Arial,sans-serif;
-  font-size:14px;
-}
-
-.ccformfield {
-  font-family: 'Lato',Arial,sans-serif;
-}
-.ccbtn{
-  display:block;
-  border:none;
-  background:#f8ae45;
-  float:right;
-  color:white;
-  padding:10px;
-}
-.ccbtn:hover{
-  background:#d8850e;
+.follow{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
 
 }
-.icon{
-  font-size: 3.5em;
-  margin-top: 8%;
-  text-align: center;
+.contact{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  margin-top: 1.8em;
+
 }

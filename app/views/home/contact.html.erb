@@ -4,27 +4,44 @@
     <li><%= link_to 'Cakes', orders_path %></li>
     <li><a href="about">About Me</a></li>
 
-   
+
   </ul>
 </nav>
 
 
 
+<h2 class="contact">Contact Me here. </h2>
 
 
 
 
- require 'sintra'
-  require 'twilio-ruby'
+<form id="form">
 
-post '/receive_sms' do 
-  content_type 'text/xml'
+  <fieldset>
+    <input id="name" name="" type="text"/>
+    <label for="name">NAME</label>
+  </fieldset>
 
-  response = Twilio::TwiML::Response.new do |r|
-    r.Message 'hey thanks for reach cynccake'
-  end
+  <fieldset>
+    <input id="email" name="" type="email"/>
+    <label for="email">EMAIL</label>
+  </fieldset>
 
-  response.to_xml
+  <fieldset>
+    <textarea id="message" name="" type="text"></textarea>
+    <label for="message">MESSAGE</label>
+  </fieldset>
 
-  
-end
+  <input id="submit" type="submit" value="GO!">
+</form>  
+<h5 class="follow"> follow me  on IG, and DM about your desire of sweet!!! </h5>
+
+
+
+<div class="icon1">
+<a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i>
+</a> &nbsp;&nbsp;
+<a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true">Book</i>
+</a
+
+</div>
