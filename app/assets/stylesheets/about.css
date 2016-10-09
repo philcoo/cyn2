@@ -1,5 +1,5 @@
 .wrapper {
-  background-image: url('bloghealthyy2.jpg');
+  background: url('bloghealthyy2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -21,7 +21,7 @@ color: black;
 background:  #b76e79;
 opacity: 0.6;
 padding-left: 2em;
-margin-left: 20em;
+margin-left: 10em;
 
 
 }
