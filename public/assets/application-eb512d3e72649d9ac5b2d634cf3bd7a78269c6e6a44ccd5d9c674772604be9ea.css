@@ -1,0 +1,565 @@
+.wrapper {
+  background-image: url('bloghealthyy2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+#me{
+	text-align: center;
+	color: orange;
+    font-family: impact; 
+}
+.cyns{
+width: 1450px;
+color: black;
+background:  #b76e79;
+opacity: 0.6;
+padding-left: 2em;
+margin-left: 20em;
+
+
+}
+
+}
+#about{
+float: right;
+flex-direction: row;
+justify-content: left;
+margin-top: 2em;
+margin-right: 25.5em;
+padding-left: 6em;
+
+}
+.footer {
+  margin-top: 10em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #efefef;
+  text-align: center;
+}
+
+body {
+  color: #383838;
+  font-family: 'Helvetica Neue';
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+section {
+  padding: 2em;
+  width: 80%;
+  display: block;
+  position: absolute;
+}
+
+section .section-title {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #383838;
+}
+
+.post {    
+  margin-left: 167px;
+  margin: 4% 0 0 0;
+  max-width: 720px;
+}
+
+.post:before {
+  content: "";
+  display: table;
+}
+
+.entry-header {
+  border-left: 14px solid;
+  padding: 1.777rem 2.369rem .75rem;
+  padding-left: 44px;
+  padding-left: 3.157rem;
+}
+
+.entry-preview {
+  padding: 3rem 3rem 2rem 1rem;
+  border-left: 14px solid;
+  border-color: #fff;
+}
+
+.post-preview {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.more-link {
+  margin-top: .433rem;
+  font-weight: bold;
+  display: block;
+  padding-left: 8px;
+  border-left: 5px solid;
+}
+
+.category-tags {
+  margin-top: 1.333rem;
+  margin-right: 4px;
+  letter-spacing: 1px;
+  font-size: 8px;
+  text-decoration: underline;
+}
+
+
+/* INITIAL COLOR STATES */
+.post.red > * {
+  color: #F85220;
+  background: #fff;
+  border-color: #FC7C60;
+  transition: color .3s, background .3s, border-color .3s;
+}
+
+.post.red.sticky > * {
+  color: #fff;
+  background: #FC7C60;
+  border-color: #F85220;
+  transition: color .3s, background .3s, border-color .3s;
+}
+
+/* HOVERED COLOR STATES */
+
+.post a:hover {
+  opacity: 2px;
+  transition: opacity, .3s;
+  cursor: pointer;
+}
+
+.post.red:hover > *{
+  color: #fff;
+  background: black;
+/*   border-color: #FC7C60; */
+  transition: color .3s, background .3s, border-color .3s;
+}
+
+.post.red.sticky:hover {
+  color: #fff;
+  background:green;
+  border-color: #FC7C60;
+  transition: color .3s, background .3s, border-color .3s;
+}
+
+
+
+
+@media (max-width:600px){
+    .blog-post {
+        font-size:.9em;
+        width:90%;
+    }
+    .blog-content {
+        width:80%;
+    }
+    .blog-img {
+        width:90%;
+        padding-bottom: 50%;
+    }
+    .blog-hero {
+        padding-bottom:60%;
+    }
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700);
+/* line 18, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card {
+  transition: height 0.3s ease;
+  -webkit-transition: height 0.3s ease;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  margin: 0 auto 1.6%;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.45em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 33, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card:hover .details {
+  left: 0;
+}
+/* line 38, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card:hover.alt .details {
+  right: 0;
+}
+/* line 45, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card.alt .details {
+  right: -100%;
+  left: inherit;
+}
+/* line 51, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .photo {
+  height: 200px;
+  position: relative;
+}
+/* line 56, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Open Sans";
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  height: 200px;
+  /*POSITION*/
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+/* line 73, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details > li {
+  padding: 3px 0;
+}
+/* line 77, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details li:before, .blog-card .details .tags ul:before {
+  font-family: FontAwesome;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+/* line 83, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .author:before {
+  content: "\f007";
+}
+/* line 87, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .date:before {
+  content: "\f133";
+}
+/* line 92, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .tags ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 93, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .tags ul:before {
+  content: "\f02b";
+}
+/* line 102, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .tags li {
+  display: inline-block;
+  margin-right: 3px;
+}
+/* line 108, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details a {
+  color: inherit;
+  border-bottom: 1px dotted;
+}
+/* line 112, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details a:hover {
+  color: #75D13B;
+}
+/* line 118, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description {
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 123, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description h1 {
+  font-family: "Roboto";
+  line-height: 1em;
+  margin: 0 0 10px 0;
+}
+/* line 129, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description h2 {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 1.2% 0;
+}
+/* line 139, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description p {
+  position: relative;
+  margin: 0;
+  padding-top: 20px;
+}
+/* line 144, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description p:after {
+  content: "";
+  background: #75D13B;
+  height: 6px;
+  width: 40px;
+  /*POSITION*/
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+/* line 157, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description a {
+  color: #75D13B;
+  margin-bottom: 10px;
+  float: right;
+}
+/* line 162, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description a:after {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+}
+/* line 172, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 181, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card {
+    height: 200px;
+    max-width: 600px;
+  }
+  /* line 186, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card:hover .photo {
+    transform: rotate(5deg) scale(1.3);
+  }
+  /* line 190, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card:hover.alt .photo {
+    transform: rotate(-5deg) scale(1.3);
+  }
+  /* line 196, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .details {
+    padding-left: 30px;
+  }
+  /* line 200, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .description {
+    float: right;
+  }
+  /* line 203, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .description:before {
+    transform: skewX(5deg);
+    right: -15px;
+    left: inherit;
+  }
+  /* line 210, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .photo {
+    float: right;
+  }
+  /* line 215, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .photo {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    float: left;
+    height: 100%;
+    width: 40%;
+  }
+  /* line 223, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .details {
+    width: 40%;
+  }
+  /* line 227, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .description {
+    float: left;
+    width: 60%;
+    z-index: 0;
+  }
+  /* line 232, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .description:before {
+    transform: skewX(-5deg);
+    content: "";
+    background: #fff;
+    width: 100%;
+    z-index: -1;
+    /*POSITION*/
+    position: absolute;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+  }
+}
+
+    
+#form{
+  font-size: 1.2em;
+  width: 50%;
+  margin: 10em 35em 20em 20em;
+  height: 600px;
+  padding:2.5em 1em .8em 1em;
+  background:black;
+  opacity: 0.6;
+  outline: none;
+  color: #008080;
+}
+.icon1{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+}
+.follow{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+
+}
+.contact{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  margin-top: 1.8em;
+
+}
+/* line 5, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+html {
+  background: #233c38 url("http://goo.gl/5wJBu") 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* line 15, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+.tit h1 {
+  margin-top: 7%;
+  color: white;
+  width: 100%;
+  font: 5em 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* line 25, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+.tit h4 {
+  height: 1px;
+  margin-top: 5.9%;
+  margin-left: 15em;
+  margin-right: 15em;
+  padding-top: 1.3em;
+  padding-bottom: 10%;
+  color: green;
+  font-size: 35px;
+  font-family: 'Tangerine', serif;
+  text-align: center;
+  background: black;
+  opacity: 0.3;
+}
+
+/* line 42, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+.icon2 {
+  font-size: 3.5em;
+  margin-top: 9em;
+  text-align: center;
+}
+
+/* line 48, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+.parallax-container {
+  height: 25em;
+}
+
+/* line 52, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+.showcase {
+  color: orange;
+}
+
+/* line 57, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 62, /home/philco/cyn2/app/assets/stylesheets/home.scss */
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+
+/* line 4, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 11, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+#card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+/* line 18, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.card3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+/* line 26, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.res {
+  text-align: center;
+  color: white;
+}
+
+/* line 30, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.res h1 {
+  font-family: impact;
+  font-size: 95px;
+}
+
+/* line 34, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+h5 {
+  color: orange;
+  font-family: serif;
+}
+
+/* line 39, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+#allcards {
+  margin-top: 5%;
+}
+
+/* line 42, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+#new {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+/* line 47, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.tell {
+  text-align: center;
+  color: green;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
