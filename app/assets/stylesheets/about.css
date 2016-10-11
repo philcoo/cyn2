@@ -1,5 +1,5 @@
 .wrapper {
-     background: url('/assets/bloghealthyy2.jpg');
+     background-image: url('/assets/bloghealthyy2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,12 +16,12 @@
     font-family: impact; 
 }
 .cyns{
-width: 50em;
+width: 20em;
 color: black;
 background:  #b76e79;
 opacity: 0.6;
 padding-left: 2em;
-margin-left: 20em;
+margin-left: 10em;
 margin-right: 20em;
 
 }

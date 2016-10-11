@@ -1,0 +1,9 @@
+.forblog{
+  background-image: url(blog2.jpg);
+   background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.blogads p{
+  float: right;
+}
