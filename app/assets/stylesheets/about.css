@@ -15,12 +15,30 @@
 	color: orange;
     font-family: impact; 
 }
+
+.abme {
+	color: green;
+	font-size: 18px;
+	float: right;
+	margin-right:25em;
+	width: 18em;
+	background: 0.6;
+	opacity: 
+}
+.abme p{
+	color: green;
+	font-size: 18px;
+	width: 18em;
+	background:white;
+	opacity: 0.4;
+}
 .cyns{
-color: black;
+color: white;
 background:  #b76e79;
-opacity: 0.6;
+opacity: 0.8;
+width: 50em;
 padding-left: 2em;
+font-size: 25px;
 
 }
-
 
