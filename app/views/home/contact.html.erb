@@ -1,3 +1,5 @@
+<div class="contactme">
+
 <nav>
   <ul class="drop-down closed">
     <li><a href="index" class="nav-button">Home</a></li>
@@ -12,28 +14,20 @@
 
 <h2 class="contact">Contact Me here. </h2>
 
-
-
-
-<form id="form">
-
-  <fieldset>
-    <input id="name" name="" type="text"/>
-    <label for="name">NAME</label>
-  </fieldset>
-
-  <fieldset>
-    <input id="email" name="" type="email"/>
+<div class="form">
+<form action="https://formspree.io/phil9231@gmail.com"
+      method="POST">
+ <label for="name">Full Name</label>
+   <input type="text" name="name">
     <label for="email">EMAIL</label>
-  </fieldset>
+    <input type="email" name="_replyto">
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="submit" value="Send">
+  
+</form>
+</div>
 
-  <fieldset>
-    <textarea id="message" name="" type="text"></textarea>
-    <label for="message">MESSAGE</label>
-  </fieldset>
 
-  <input id="submit" type="submit" value="GO!">
-</form>  
 
 
 <footer>
@@ -45,3 +39,4 @@
 <a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true">Book</i>
 </a></div>
 </footer>
+</div>
