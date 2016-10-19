@@ -5,78 +5,142 @@
 
 </div>
 
- <div class="grid_4">
-    <section class="box widget locations">
-      <div class="avatar">
-         <%= image_tag("apic.png", height:'400', width: '450',)  %>
-      </div>
-      <h4><a> I am a Respiratory Therapist</a></h4>
-      <p>Part of my Job is to examine patients with breathing or cardiopulmonary disorders. Consult with physicians to develop patient treatment plans. Perform diagnostic tests, such as measuring lung capacity.. </p>
+<div class="grid_4">
+  <section class="box widget locations">
+    <div class="avatar">
+      <div class="meblog">
+       <%= image_tag("apic.png", height:'400', width: '450',)  %>
+     </div>
+     <div class="meblogtext">
+       <h4 class="blog1"><a> I am a Respiratory Therapist</a></h4>
+       <p>Part of my Job is to examine patients with breathing 
+         or cardiopulmonary disorders. <br>Consult with physicians to develop patient treatment plans. Perform diagnostic tests, such as measuring lung capacity.. </p>
+       </div>
+     </div>
 
-      <div class="details">
-        <a href="#" class="btn btn-primary btn-block btn-large">view on maps</a>
-      </div>
-    </section>
-
-<div class="card-group">
-    <div class="card">
-        <img class="img-fluid" src="http://mdbootstrap.com/images/reg/reg%20(63).jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
+     <div class="details">
+      <a  class="btn btn-primary btn-block btn-large"> Live well with CCC.</a>
     </div>
+  </section>
+
+  <div class="card-group">
     <div class="card">
+      <h4 class="eat">Eat Well with Cyn.</h4>
+      <table>
+        <td class="first">
+          <%= image_tag("breakfast2.jpg", height:'400', width: '700',) %>
+          <h5> WHOLE GRAINS</h5>
+          <p>High fiber with no trans fats; all natural and kosher
+            Low glycemic and low sodium;<br> no artificial colors, flavors, or preservatives
+            Crisp and wholesome whole grain cereal with no added sugar</p>
+          </td>
+          <td>
+
+            <%= image_tag("salad.jpeg", height:'400', width: '700',) %>
+            <h5> EATING SALAD</h5>
+            <p>Eating salad daily is the most healthy eating habits you can adopt</p>
+          </td>
+
+          <td>
+            <%= image_tag("breakfast3.png", height:'400', width: '700',) %>
+            <h5> EGGS & BACON</h5>
+            <p> The protein of  bacon and eggs first thing in the morning is way to staying healthy. </p>
+          </td>
+        </table>
+
+        <table>
+         <td class="first">
+          <%= image_tag("orangejuice.jpg", height:'400', width: '700',) %>
+          <h5> ORANGE JUICE</h5>
+          <p>Orange is very good for you. a glass of it in the morning is the best.</p>
+        </td>
+        <td>
+          <%= image_tag("autmeal.jpg", height:'400', width: '700',) %>
+          <h5> OATMAEAL</h5>
+          <p></p>
+        </td>
+        <td>
+
+          <%= image_tag("fish.jpeg", height:'400', width: '700',) %>
+          <h5> FISH</h5>
+          <p></p>
+        </td>
+      </table>
+      <div class="card-block">
+        <p class="card-text"><small class="text-muted"><a href="cynccakes.herokuapp.com/home/index"> My Site</a></small></p>
+      </div>
+    </div>
+
+    </div> <h4 class="tl">Do You</h4>
+
+    <div class="card">
+      <div id="makeyours">
        <%= image_tag("blog1.jpg", height:'400', width: '1050',) %>
-        <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text"><h5>  Read your recipe carefully before starting:  Be sure you have all the ingredients called for and that you understand the recipe clearly.  Learn more about Recipes (What is a Recipe – How to Follow a Recipe – Why Some Recipes Don’t Work – What is Mise en Place?)</h5><br>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
-    <div class="card">
-        <img class="img-fluid" src="http://mdbootstrap.com/images/reg/reg%20(64).jpg" alt="Card image cap">
-        <div class="card-block">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-    </div>
-</div>
-
-
-
-      </header>
-
-      <div class="col_2of3">
-        <section class="box widget audio">
-          <div class="image">
-            <%= image_tag("blog3.jpg", height:'400', width: '450',)  %>
-          </div>
-          <div class="details">
-            <h2 class="album">Geef mij maar Amsterdam</h2>
-            <p class="artist">Johnny Jordaan</p>
-            <div class="player">
-              <div class="bar">
-                <div class="progress" data-time="1:45"></div>
-              </div>
-
-            </div>
-          </div>
-        </section>  
+       </div> <h4 class="tl1">Make your Dough</h4><br>
+       <div class="card-block">
+       <div class="meblog">
+      
+        <p>  Put warm water in a pan, Add yeast and sugar. Stir lightly,
+          Gradually add in the flour as you stir the mixture simultaneously.
+          Knead the dough. It is ready when it is glossy and tacky, but not sticky  Be sure you have all the ingredients called for and that you understand the recipe clearly.
+        </p>
       </div>
-      <div class="col_1of3">
-        <section class="box widget find">
-          <input type="text" name="find" placeholder="Find your city place" />
-          <label for="favorite" class="checkbox">
-            <input type="checkbox" id="favorite" name="favorite" />
-            Add to favorites
-          </label>
-          <a href="#" class="btn btn-primary btn-large btn-block">Search</a>
-        </section>
-      </div>
+
     </div>
   </div>
+  
+
+
+
+</header>
+
+<div class="col_2of3">
+  <section class="box widget audio">
+    <div class="image">
+      <%= image_tag("blog2.jpg", height:'400', width: '700',)  %>
+    </div>
+    <div class="details">
+      <h2 class="album">Get In Touch</h2>
+      <div class="player">
+        <div class="bar">
+          <div class="progress" data-time="1:45"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>  
+</div>
+
+<div class="col_1of6">
+  <section class="box widget find">
+    <div class="lasform">
+      <form action="https://formspree.io/phil9231@gmail.com"
+      method="POST">
+
+      <label for="name">Full Name</label>
+      <input type="text" name="name
+      <label for="phone">Phone</label>
+      <input type="text" name="name
+      <label for="Suject">Subject</label>
+      <input type="text" name="name">    
+      <label for="email">EMAIL</label>
+      <input type="email" name="_replyto">
+      Your message
+      <textarea name="message" placeholder=""></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  <div class="lastlogo">
+    <a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i>
+    </a> &nbsp;&nbsp;
+    <a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true">Book</i>
+    </a>
+  </div>
+  
+  <a href="#" class="btn btn-primary btn-large btn-block"></a>
+</section>
+</div>
+</div>
+</div>
 </div>
 

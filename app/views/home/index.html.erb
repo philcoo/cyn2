@@ -1,16 +1,25 @@
 
 <div class="home1">
+
   <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo"><%= image_tag("apic.png", height:'65', width: '85',)  %></a>
+      <a href="#!" class="brand-logo"><%= image_tag("apic.png", height:'65', width: '85',)  %></a></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="index">Home</a></li>
         <li><a href="about">About ME</a></li>
         <li><%= link_to 'Cakes', orders_path %></li>
-        <li><a href="/contact">Contact Me</a></li>
+        <li><a href="contact">Contact Me</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="index">Home</a></li>
+        <li><a href="about">About ME</a></li>
+        <li><%= link_to 'Cakes', orders_path %></li>
+        <li><a href="contact">Contact Me</a></li>
       </ul>
     </div>
   </nav>
+
 
 
 
