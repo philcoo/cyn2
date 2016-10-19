@@ -19,11 +19,7 @@
 	font-size: 3em;
 	font-family: bold;
 }
-.card-group{
-	margin-left: 2em;
-	margin-right: 2em;
-	
-}
+
 
 .first{
 	padding-left: 4em;
@@ -66,7 +62,7 @@
 
 
 }
-.col_2of3{
+.intouch{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
