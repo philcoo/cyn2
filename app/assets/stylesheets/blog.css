@@ -18,11 +18,21 @@
 	color: orange;
 	font-size: 3em;
 	font-family: bold;
+	text-align: center;
+}
+.firstb{
+	padding-right: -89px;
+
+
 }
 
 
-.first{
-	padding-left: 4em;
+.alltb{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+
 }
 .lasform{
 	display: flex;
