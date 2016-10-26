@@ -1,153 +1,84 @@
 
-<div class="forblog">
+    <div class="forblog">
 
-  <h1 class="blog1">Cynthia C. Cakes</h1>
+      <h1 class="blog1">Cynthia C. Cakes</h1>
 
-</div>
-
-<div>
-  <section class="box widget locations">
-    <div class="avatar">
-      <div class="meblog">
-       <%= image_tag("apic.png", height:'400', width: '450',)  %>
-     </div>
-     <div class="meblogtext">
-       <h4 class="blog1"><a> I am a Respiratory Therapist</a></h4>
-       <p>Part of my Job is to examine patients with breathing 
-         or cardiopulmonary disorders. <br>Consult with physicians to develop patient treatment plans. Perform diagnostic tests, such as measuring lung capacity.. </p>
-       </div>
-     </div>
-
-     <div class="details">
-      <a  class="btn btn-primary btn-block btn-large"> Live well with CCC.</a>
-    </div>
-  </section>
-
-  <!-- blog info, about health -->
-  <div wrp>
-    <div class="card-group">
-      <div class="card">
-        <table id="makeyours">
-          <h4 class="eat">Eat Well with Cyn.</h4>
-          <td>
-            <%= image_tag("breakfast2.jpg", height:'400', width: '700',) %>
-            <h5> WHOLE GRAINS</h5>
-            <p>High fiber with no trans fats; all natural and kosher
-              Low glycemic and low sodium;<br> no artificial colors, flavors, or preservatives
-              Crisp and wholesome whole grain cereal with no added sugar</p>
-            </td>
-          </table> 
-
-          
-
-          <table id="makeyours"> 
-            <td>
-              <%= image_tag("breakfast3.png", height:'400', width: '700',) %>
-              <h5> EGGS & BACON</h5>
-              <p> The protein of  bacon and eggs first thing in the morning is way to staying healthy. </p>
-            </td>
-             <td>
-              <%= image_tag("breakfast3.png", height:'400', width: '700',) %>
-              <h5> EGGS & BACON</h5>
-              <p> The protein of  bacon and eggs first thing in the morning is way to staying healthy. </p>
-            </td>
-          </table>
-
-
-          <br>
-
-          <table id="makeyours">
-           <td>
-             <%= image_tag("orangejuice.jpg", height:'400', width: '700',) %>
-             <h5> ORANGE JUICE</h5>
-             <p>Orange is very good for you. a glass of it in the morning is the best.</p>
-           </td>
-         </table>
-
-         <table id="makeyours">
-           <td>
-            <%= image_tag("autmeal.jpg", height:'400', width: '700',) %>
-            <h5> OATMAEAL</h5>
-            <p></p>
-          </td>
-        </table>
-      </div>
-
-      <div class="card-block">
-        <p class="card-text"><small class="text-muted"><a href="cynccakes.herokuapp.com/home/index"> My Site</a></small></p>
-      </div>
     </div>
 
+    <div>
+      <section class="box widget locations">
+        <div class="avatar">
+          <div class="meblog">
+           <%= image_tag("apic.png", height:'400', width: '450',)  %>
+         </div>
+         <div class="meblogtext">
+           <h4 class="blog1"><a> I am a Respiratory Therapist</a></h4>
+           <p>Part of my Job is to examine patients with breathing 
+             or cardiopulmonary disorders. <br>Consult with physicians to develop patient treatment plans. Perform diagnostic tests, such as measuring lung capacity.. </p>
+           </div>
+         </div>
 
-  </div> <h4 class="tl">Do You</h4>
-
-  <div class="card">
-    <div id="makeyours">
-     <%= image_tag("blog1.jpg", height:'400', width: '1050',) %>
-   </div> <h4 class="tl1">Make your Dough</h4><br>
-   <div class="card-block">
-     <div class="meblog">
-
-      <p>  Put warm water in a pan, Add yeast and sugar. Stir lightly,
-        Gradually add in the flour as you stir the mixture simultaneously.
-        Knead the dough. It is ready when it is glossy and tacky, but not sticky  Be sure you have all the ingredients called for and that you understand the recipe clearly.
-      </p>
-    </div>
-
-  </div>
-</div>
-
-
-
-
-</header>
-
-<div class="intouch">
-  <section class="box widget audio">
-    <div class="image">
-      <%= image_tag("blog2.jpg", height:'400', width: '700',)  %>
-    </div>
-    <div class="details">
-      <h2 class="album">Get In Touch</h2>
-      <div class="player">
-        <div class="bar">
+         <div class="details">
+          <a  class="btn btn-primary btn-block btn-large"> Live well with CCC.</a>
         </div>
-
-      </div>
+      </section>
     </div>
-  </section>  
-</div>
 
-<div>
-  <section class="box widget find">
-    <div class="lasform">
-      <form action="https://formspree.io/phil9231@gmail.com"
-      method="POST">
+      <!-- blog info, about health -->
 
-      <label for="name">Full Name</label>
-      <input type="text" name="name
-      <label for="phone">Phone</label>
-      <input type="text" name="name
-      <label for="Suject">Subject</label>
-      <input type="text" name="name">    
-      <label for="email">EMAIL</label>
-      <input type="email" name="_replyto">
-      Your message
-      <textarea name="message" placeholder=""></textarea>
-      <input type="submit" value="Send">
-    </form>
+
+
+    <div class="intouch">
+      <section class="box widget audio">
+        <div class="image">
+          <%= image_tag("blog2.jpg", height:'400', width: '700',)  %>
+        </div>
+        
+        <div class="details">
+        <div class="image">
+          <%= image_tag("blog2.jpg", height:'400', width: '700',)  %>
+        </div>
+          <h2 class="album">Get In Touch</h2>
+          <div class="player">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </section>  
+    </div>
+
+
+
+   <!-- the contact form -->
+  <div>
+    <section class="box widget find">
+      <div class="lasform">
+        <form action="https://formspree.io/phil9231@gmail.com"
+          method="POST">
+
+          <label for="name">Full Name</label>
+          <input type="text" name="name
+          <label for="phone">Phone</label>
+          <input type="text" name="name
+          <label for="Suject">Subject</label>
+          <input type="text" name="name">    
+          <label for="email">EMAIL</label>
+          <input type="email" name="_replyto">
+          Your message
+          <textarea name="message" placeholder=""></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+
+
+      <!-- the logo for contact -->
+      <div class="lastlogo">
+        <a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i>
+        </a> &nbsp;&nbsp;
+        <a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true">Book<i>
+        </a>
+      </div>
+      
+      <a href="#" class="btn btn-primary btn-large btn-block"></a>
+    </section>
   </div>
-  <div class="lastlogo">
-    <a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i>
-    </a> &nbsp;&nbsp;
-    <a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true">Book</i>
-    </a>
-  </div>
-  
-  <a href="#" class="btn btn-primary btn-large btn-block"></a>
-</section>
-</div>
-</div>
-</div>
-</div>
-
+   
