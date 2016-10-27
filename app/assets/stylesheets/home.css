@@ -21,13 +21,8 @@
 	text-align: center;
   
 }
-.tit h4{
-    height:1px;
-    margin-top: 5.9%;
-    margin-left: 15em;
-    margin-right: 15em;
-    padding-top: 1.8em;
-    padding-bottom:8%;
+.container{
+    
     color: green;
     font-size: 2em;
     font-family: 'Tangerine', serif;

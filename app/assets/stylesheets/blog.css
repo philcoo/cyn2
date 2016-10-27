@@ -26,56 +26,10 @@
 
 }
 
-
-.alltb{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	
-
-}
-.lasform{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-	/*margin-right:120em;
-	margin-left: 1em;*/
-	background: #EEB4B4;
-	margin-bottom: 2em;
-
-}
-.lasform label{
-	padding-left: 2em;
+.details{
+	padding-bottom: 2em;
 }
 .lastlogo{
 	text-align: center;
-	font-size: 2em;
-}
-#makeyours{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-}
-.tl1{
-	text-align: center;
-	color:red;
-	text-decoration: underline;
-	font-family: impact;
-}
-.tl{
-	text-align: center;
-	color:orange;
-	font-family: impact;
-	font-size: 5em;
-
-
-}
-.intouch{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-
+	font-size: 25px;
 }
