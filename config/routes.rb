@@ -17,6 +17,7 @@ Rails.application.routes.draw do
   get 'home/contact'
   get 'home/blog'
   get 'orders/contact'
+  get 'home/reserve'
  
  
 

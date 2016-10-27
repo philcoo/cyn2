@@ -20,7 +20,6 @@
 	color: green;
 	font-size: 18px;
 	float: right;
-	margin-right:15em;
 	width: 18em;
 	background: 0.6;
  
@@ -31,6 +30,7 @@
 	width: 18em;
 	background:white;
 	opacity: 0.4;
+	justify-content: center;
 }
 .cyns{
 color: white;
@@ -40,5 +40,17 @@ width: 50em;
 padding-left: 2em;
 font-size: 25px;
 
+
+}
+
+@media screen and (min-width: 600px) {
+  .cyns{
+    height: 100%;
+    max-width:100%;
+  
+    
+
+
+  }
 }
 
