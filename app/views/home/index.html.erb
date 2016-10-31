@@ -1,6 +1,25 @@
 
 <div class="home1">
+ <ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <div class="background">
+        <%= image_tag("blog5.jpg")  %>
+      </div>
+      <a href="#!user"><%= image_tag("apic.png", height:'250', width: '200', class: "img-circle cyn")  %></a>
+      <a href="#!name"><span class="white-text name">Cynthia Servil</span></a>
+      
+    </div></li>
+    <li><h4>Eat well with Cyn</h4></li>
+   <li><a href="index">Home</a></li>
+        <li><a href="about">About ME</a></li>
+        <li><%= link_to 'Cakes', orders_path %></li>
+        <li><a href="contact">Contact Me</a></li>
+         <%= image_tag("blog5.jpg")  %>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i style="font-family:impact; font-size:2em;">CCC</i></a>
 
+  
+        
   <nav class="navbar navbar-inverse"> 
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo"></a></a>

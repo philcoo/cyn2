@@ -14,15 +14,21 @@
 	text-align: center;
 	color: orange;
     font-family: impact; 
+    margin-bottom: 2em;
 }
 
+.table1{
+	
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15em;
 
+}
 
 .cyns{
-	width: 825px;
-display: flex;
-flex-direction: row;
-justify-content: center;
+	margin-top: 10em;
+	width: 925px;
 color: white;
 background:  #b76e79;
 opacity: 0.8;
@@ -31,10 +37,11 @@ opacity: 0.8;
 
 
 }
-.card-image{
-	width: auto;
-}
 
+.cardimg {
+
+	justify-content: center;
+}
 @media screen and (min-width: 600px) {
   .cyns{
     height: 100%;
