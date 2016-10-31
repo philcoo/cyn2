@@ -14,12 +14,13 @@
 
 
 .tit h1 {
-	margin-top: 10%;
+	margin-top: 12%;
 	color: white;
   font: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
-  margin-bottom: 5em;
+  margin-bottom: 7em;
+
   
 }
 .p{
@@ -38,7 +39,7 @@
 }
 
 .icon2{
-  margin-top: 35em;
+  margin-top: 10em;
   text-align: center;
 }
 

@@ -15,18 +15,15 @@
   background-color: white;
   font-size: 25px;
 }
-.follow{
-  margin-top: 20em;
+.follow1{
+  margin-top: 5em;
   display: flex;
   flex-direction: row;  
   justify-content: center;
   background-color: white;
   opacity: .6;
   font-size: 2em;
-  margin-right: 20em;
-  margin-left: 20em;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  margin-top: 5.8em;
 
 
 }
@@ -34,27 +31,26 @@
   display: flex;
   flex-direction: row;  
   justify-content: center;
-  margin-top: 1.2em;
   background-color: white;
   color:green;
   font-family: impact;
   font-size: 6em;
-  margin-bottom: 2.8em;
 
 }
 
 
 #cme{
   text-align: center;
-  color: orange;
+  color: white;
     font-family: impact; 
-    font-size: 5em;
-    margin-bottom: 5em;
-    margin-top: 2em;
+    font-size: 5.8em;
+    margin-bottom: 4em;
+    margin-top: 1.5em;
 }
 
 form{
-  background: #79840A;
+  margin-top: 5px;
+  background: #f45f42;
   color:white;
-
+  opacity: .8;
 }
