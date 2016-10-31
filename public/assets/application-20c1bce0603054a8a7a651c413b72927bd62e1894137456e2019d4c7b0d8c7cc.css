@@ -1,0 +1,533 @@
+.wrapper {
+     background-image: url('/assets/bloghealthyy2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+#me{
+	text-align: center;
+	color: orange;
+    font-family: impact; 
+    margin-bottom: 2em;
+}
+
+.table1{
+	
+	width: 1200px;
+	margin-left: 25%;
+	margin-right: auto;
+	padding-left: 15em;
+
+}
+
+.cyns{
+	margin-top: 10em;
+	width: 925px;
+color: white;
+background:  #b76e79;
+opacity: 0.8;
+
+
+
+
+}
+
+.cardimg {
+
+	justify-content: center;
+}
+@media screen and (min-width: 600px) {
+  .cyns{
+    height: 100%;
+    max-width:100%;
+  
+    
+
+
+  }
+}
+
+
+.blog1{
+	text-align: center;
+	color: orange;
+	font-family: impact;
+}
+.meblog{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.meblogtext{
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.eat{
+	color: orange;
+	font-size: 3em;
+	font-family: bold;
+	text-align: center;
+}
+.firstb{
+	padding-right: -89px;
+
+
+}
+
+.details{
+	padding-bottom: 2em;
+}
+.lastlogo{
+	text-align: center;
+	font-size: 25px;
+}
+@import url();
+/* line 18, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.ordercake {
+  background-image: url(blog2.jpg);
+  background-position: center;
+}
+
+/* line 23, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card {
+  transition: height 0.3s ease;
+  -webkit-transition: height 0.3s ease;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  margin: 0 auto 1.6%;
+  margin-bottom: 5em;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.45em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 39, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card:hover .details {
+  left: 0;
+}
+/* line 44, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card:hover.alt .details {
+  right: 0;
+}
+/* line 51, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card.alt .details {
+  right: -100%;
+  left: inherit;
+}
+/* line 57, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .photo {
+  height: 200px;
+  position: relative;
+}
+/* line 62, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Open Sans";
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  height: 200px;
+  /*POSITION*/
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+/* line 79, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details > li {
+  padding: 3px 0;
+}
+/* line 83, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details li:before, .blog-card .details .tags ul:before {
+  font-family: FontAwesome;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+/* line 89, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .author:before {
+  content: "\f007";
+}
+/* line 93, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .date:before {
+  content: "\f133";
+}
+/* line 98, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .tags ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 99, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .tags ul:before {
+  content: "\f02b";
+}
+/* line 108, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details .tags li {
+  display: inline-block;
+  margin-right: 3px;
+}
+/* line 114, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details a {
+  color: inherit;
+  border-bottom: 1px dotted;
+}
+/* line 118, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .details a:hover {
+  color: #75D13B;
+}
+/* line 124, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description {
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+/* line 129, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description h1 {
+  font-family: "Roboto";
+  line-height: 1em;
+  margin: 0 0 10px 0;
+}
+/* line 135, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description h2 {
+  color: #9b9b9b;
+  font-family: "Open Sans";
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 1.2% 0;
+}
+/* line 145, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description p {
+  position: relative;
+  margin: 0;
+  padding-top: 20px;
+}
+/* line 150, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description p:after {
+  content: "";
+  background: #75D13B;
+  height: 6px;
+  width: 40px;
+  /*POSITION*/
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+/* line 163, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description a {
+  color: #75D13B;
+  margin-bottom: 10px;
+  float: right;
+}
+/* line 168, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description a:after {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  content: "\f061";
+  font-family: FontAwesome;
+  margin-left: -10px;
+  opacity: 0;
+  vertical-align: middle;
+}
+/* line 178, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+.blog-card .description a:hover:after {
+  margin-left: 5px;
+  opacity: 1;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 187, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card {
+    height: 200px;
+    max-width: 600px;
+  }
+  /* line 192, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card:hover .photo {
+    transform: rotate(5deg) scale(1.3);
+  }
+  /* line 196, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card:hover.alt .photo {
+    transform: rotate(-5deg) scale(1.3);
+  }
+  /* line 202, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .details {
+    padding-left: 30px;
+  }
+  /* line 206, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .description {
+    float: right;
+  }
+  /* line 209, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .description:before {
+    transform: skewX(5deg);
+    right: -15px;
+    left: inherit;
+  }
+  /* line 216, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card.alt .photo {
+    float: right;
+  }
+  /* line 221, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .photo {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    float: left;
+    height: 100%;
+    width: 40%;
+  }
+  /* line 229, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .details {
+    width: 40%;
+  }
+  /* line 233, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .description {
+    float: left;
+    width: 60%;
+    z-index: 0;
+  }
+  /* line 238, /home/philco/cyn2/app/assets/stylesheets/cake.scss */
+  .blog-card .description:before {
+    transform: skewX(-5deg);
+    content: "";
+    background: #fff;
+    width: 100%;
+    z-index: -1;
+    /*POSITION*/
+    position: absolute;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+  }
+}
+.contactme{
+  background-image: url('/assets/contactpic1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+    
+
+.icon1{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  background-color: white;
+  font-size: 25px;
+}
+.follow1{
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  background-color: white;
+  opacity: .6;
+  font-size: 2em;
+  margin-top: 9em;
+
+
+}
+.contact{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  background-color: white;
+  color:green;
+  font-family: impact;
+  font-size: 6em;
+
+}
+
+
+#cme{
+  text-align: center;
+  color: white;
+    font-family: impact; 
+    font-size: 5.8em;
+    margin-bottom: 4em;
+    margin-top: 1.5em;
+}
+
+form{
+  margin-top: 5px;
+  background: #f45f42;
+  color:white;
+  opacity: .8;
+}
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.home1{
+     background-image: url('/assets/bloghealthyy2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.tit h1 {
+	margin-top: 12%;
+	color: white;
+  font: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+  margin-bottom: 9em;
+
+  
+}
+.p{
+    
+    color: green;
+    font-size: 2em;
+    font-family: 'Tangerine', serif;
+	  text-align: center;
+    background:black;
+     opacity: 0.8;
+     margin-right: auto;
+     margin-left: auto;
+     width: 1000px;;
+
+
+}
+
+.icon2{
+  margin-top: 10em;
+  text-align: center;
+}
+
+
+.showcase{
+  color:orange;
+}
+
+  
+
+
+/* line 4, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.wrapper {
+  background-image: url("/assets/bloghealthy1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 21, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+#card2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+/* line 28, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.card3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+/* line 36, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.res {
+  text-align: center;
+  color: white;
+}
+
+/* line 40, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.res h1 {
+  font-family: impact;
+  font-size: 95px;
+}
+
+/* line 44, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+h5 {
+  color: orange;
+  font-family: serif;
+}
+
+/* line 49, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+#allcards {
+  margin-top: 5%;
+}
+
+/* line 52, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+#new {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
+
+/* line 57, /home/philco/cyn2/app/assets/stylesheets/orders.scss */
+.tell {
+  text-align: center;
+  color: green;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 0) and (max-width: 64em) {
+  img, form, .button {
+    padding: 20px;
+  }
+  .button {
+    margin: 20px;
+  }
+}
+
+.row {
+  max-width: 80rem;
+  margin-bottom: 20px;
+}
+
+.alert-box {
+  margin-bottom: 0;
+}
+
+
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
