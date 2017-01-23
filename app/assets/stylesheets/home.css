@@ -4,7 +4,7 @@
 
 
 .home1{
-     background-image: url('/assets/bloghealthyy2.jpg');
+     background-image: url('homep.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,12 +16,15 @@
 .tit h1 {
 	margin-top: 12%;
 	color: white;
-  font: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
 	text-transform: uppercase;
 	text-align: center;
   margin-bottom: 7em;
 
   
+}
+.tit span{
+  font-size: 2em;
 }
 .p{
     

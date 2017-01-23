@@ -4,16 +4,11 @@ Rails.application.routes.draw do
   resources :users
   get 'notifications/index'
   
-
-
-  root 'home#index'
-
-  get 'home/home'
-
-  
   resources :orders 
-  get 'home/about'
+ 
+  root 'home#index'
   get 'home/index'
+  get 'home/about'
   get 'home/contact'
   get 'home/blog'
   get 'orders/contact'
