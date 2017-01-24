@@ -6,6 +6,7 @@
   background-position: center center;
   width: 100%;
   height: 100%;
+  margin-top: 0;
 }
   #abouther{
     padding:auto;
@@ -14,11 +15,14 @@
     opacity: 0.5;
    
   }
+  #abouther h3{
+     font-family: 'Lobster', cursive;
+  }
 
 #me{
 	text-align: center;
 	color: orange;
-    font-family: impact; 
+     font-family: 'Lobster', cursive;
     margin-bottom: 2em;
 }
 
