@@ -14,7 +14,7 @@
 
 
 .tit h1 {
-	margin-top: 12%;
+	margin-top: 18%;
 	color: white;
   font-family: 'Lobster', cursive;
 	text-transform: uppercase;
@@ -32,11 +32,7 @@
     font-size: 2em;
     font-family: 'Tangerine', serif;
 	  text-align: center;
-    background:black;
-     opacity: 0.8;
-     margin-right: auto;
-     margin-left: auto;
-     width: 1000px;;
+   
 
 
 }
