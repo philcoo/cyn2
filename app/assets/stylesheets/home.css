@@ -15,7 +15,8 @@
 
 .tit h1 {
 	margin-top: 18%;
-	color: white;
+  color:#B76E79;
+	  text-shadow: 5px 2px 5px #AADD00;
   font-family: 'Lobster', cursive;
 	text-transform: uppercase;
 	text-align: center;
