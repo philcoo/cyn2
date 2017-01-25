@@ -10,10 +10,16 @@
 }
   #abouther{
     padding:auto;
-      background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.5;
-   
+    background: gray;
+    border: 1px, 2px solid black;
+    opacity: 0.8;
+   color: white;
+  
+  }
+  #about1{
+     padding-left:52px;
+   padding-right: 52px;
+
   }
   #abouther h3{
      font-family: 'Lobster', cursive;
@@ -40,7 +46,7 @@
 	width: 925px;
 color: white;
 background:  #b76e79;
-opacity: 0.8;
+opacity: 0.6;
 
 
 
