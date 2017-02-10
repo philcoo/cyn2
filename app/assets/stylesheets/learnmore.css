@@ -47,10 +47,22 @@
 
   transform:translateX(-50%) translateY(-50%);  
 }
-.product :hover{
+#thumb:hover{
 	 opacity: 2;
+	
+transform: rotate(55deg) scale(2) translateY(-20%) translateX(20%);
+
+
+
+}
+.description2{
+	 opacity: 0.8;
+	 background: gray;
 	 text-align: center;
 	 font-family: serif;
+	  font-size: 18px;
+	  border-radius: solid;
+	   font-family: serif;
 
 
 }
@@ -60,12 +72,15 @@
   margin:30px 30px 0 25px;
   float:left;
   cursor:crosshair;
+  
+  
 }
 #thumb2{
   width:180px;
   margin:30px 30px 0 25px;
   float:left;
   cursor:crosshair;
+
 }
 .info{
   width:404px;
@@ -87,12 +102,15 @@
     background:white;
     transition:.5s ease;
     }
-@media {
+    #back_ccc{
+    	margin-left: 105%;
+    	margin-top: 0;
+    	font-size: 30px;
+    	
+    }
+@media only screen and (max-width: 767px) {
   .wapper1 {
-    max-height: 1280px;
-  }
-  .button {
-    margin: 20px;
+    background-image: url('/assets/contat3.jpg');
   }
 }
 
