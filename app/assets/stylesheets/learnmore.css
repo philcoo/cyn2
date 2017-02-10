@@ -1,0 +1,101 @@
+
+
+.wapper1{
+	background-image: url('/assets/contat3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+    background-attachment: fixed;
+  width: 100%;
+  height: 1300px;
+ 
+}
+  #firstcake{
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	max-width:100%;
+  	height: 50%;
+  	position: relative;
+    opacity: 0.5;
+  }
+
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+.zoom{
+  position:fixed;
+  width:100%;
+  text-align:center;
+  font-family:Open Sans, sans-serif;
+  opacity:0.3;
+  color:#045888;
+  font-size:30px;
+  top:50%;
+  transform:translateY(-50%);
+  margin:230px 0 0;
+}
+.product{
+  width:900px;
+  height:50%;
+  position:absolute;
+  left:50%;
+  top:60%;
+  padding:20px;
+  background:white;
+     opacity: 0.9;
+
+  transform:translateX(-50%) translateY(-50%);  
+}
+.product :hover{
+	 opacity: 2;
+	 text-align: center;
+	 font-family: serif;
+
+
+}
+#thumb{
+  width:400px;
+  height:auto;
+  margin:30px 30px 0 25px;
+  float:left;
+  cursor:crosshair;
+}
+#thumb2{
+  width:180px;
+  margin:30px 30px 0 25px;
+  float:left;
+  cursor:crosshair;
+}
+.info{
+  width:404px;
+  height: 100px;
+  float:left;
+  position: relative;
+  font-family:'Open Sans', sans-serif;
+    img{
+      position:absolute;
+    }
+  }
+}
+ .full{
+    
+    overflow:hidden;
+    left:0;
+    top:0;
+    opacity:0;
+    background:white;
+    transition:.5s ease;
+    }
+@media {
+  .wapper1 {
+    max-height: 1280px;
+  }
+  .button {
+    margin: 20px;
+  }
+}
+
+
+
+

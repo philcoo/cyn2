@@ -1,7 +1,7 @@
 img {
   max-width: 100%;
   height: auto;
-  width: 100%;
+  width: 80%;
 }
 
 @media only screen and (min-width: 0) and (max-width: 64em) {
@@ -21,7 +21,34 @@ img {
 .alert-box {
   margin-bottom: 0;
 }
+.topping{
+  background:gray;
+  display: flex;
+  flex-direction: row;  
+  padding-left: 45px;              
+   
+}
 
+.topping p{
+  
+   display: block;
+    color: white;
+    text-align: center;
+    padding-right: 9em;
+    text-decoration: none;
+  
 
-
+}
+ 
+.formres{
+ 
+background:#B76E79;
+color: white;
+}
+.formres {
+  padding: 15px;
+}
+#ordercake {
+  color: #A2C257;
+}
 

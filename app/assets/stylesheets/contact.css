@@ -50,6 +50,8 @@ font-family: 'Tangerine', cursive;
 
 form{
   margin-top: 5px;
+}
+.form2{
   background: gray;
   color:white;
   opacity: .5;
