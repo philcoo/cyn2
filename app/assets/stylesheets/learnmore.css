@@ -1,26 +1,25 @@
 
 
 .wapper1{
-	background-image: url('/assets/contat3.jpg');
+	background-image: url('/assets/cakemixer.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	width: 100%;
-	height: 1300px;
+	height: 1800px;
 }
 #firstcake{
+
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	max-width:100%;
 	height: 50%;
+
 	position: relative;
 	opacity: 0.5;
 }
-
-
-@import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 .zoom{
 	position:fixed;
@@ -38,6 +37,7 @@
 .product{
 	width:900px;
 	height:50%;
+	margin-top: 5em;
 	position:absolute;
 	left:50%;
 	top:60%;
@@ -47,31 +47,36 @@
 
 	transform:translateX(-50%) translateY(-50%);  
 }
-#thumb:hover{
-	opacity: 2;
-	
-	transform: rotate(55deg) scale(2) translateY(-20%) translateX(20%);
 
-
-
-}
 .info h2{
 	color:orange;
-	text-shadow: 2px;
+	margin-top: 2px;
 	font-family: impact;
 
 }
 .description2{
+	width: 500px;
+	float: right;
+	margin-top: 22em;
+	opacity: 0.9;
+	color:white;
+	background: gray;
+	text-align: center;
+	font-family: serif;
+	font-size: 25px;
+	border-radius: solid;
+	font-family: serif;
+}
+.description3{
+	width: 200px;
+	margin-top: 1em;
+	margin-left: 150px;
 	opacity: 0.9;
 	color:white;
 	background: gray;
 	text-align: center;
 	font-family: serif;
 	font-size: 20px;
-	border-radius: solid;
-	font-family: serif;
-
-
 }
 #thumb{
 	width:400px;
@@ -110,17 +115,17 @@
 	transition:.5s ease;
 }
 #back_ccc{
-	margin-left: 105%;
-	margin-top: 0;
-	font-size: 30px;
-
+	display: inline-block;
+    width: auto;
+    border: 2px solid #20638f;
+    padding: 0.7em 0.6em;
+    color: #20638f;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 2em;
+    text-transform: cursive;
+     color:white;
 }
-@media only screen and (max-width: 767px) {
-	.wapper1 {
-		background-image: url('/assets/contat3.jpg');
-	}
-}
-
 
 
 
