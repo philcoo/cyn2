@@ -14,7 +14,11 @@ Rails.application.routes.draw do
   get 'orders/contact'
   get 'home/reserve'
   get 'home/firstcake'
- 
+  get 'home/secondcake'
+ get 'home/thirdone'
+ get 'home/fourthone'
+ get 'home/fiveone'
+ get 'home/sixone'
  
 
 
