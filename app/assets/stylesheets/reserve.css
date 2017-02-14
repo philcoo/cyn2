@@ -1,0 +1,68 @@
+.HolyGrail-body{
+	background-color: #755066;
+}
+.HolyGrail {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+  border: 5px solid;
+  padding: 25px;
+  margin-top: 35px;
+
+}
+.size h6{
+	width: 200px;
+       float: left;
+       margin:20px;
+       border-right: 1px solid red;
+}
+.size h6:last-child {
+        border-right:0;
+     }
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav, .HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+.HolyGrail,
+.HolyGrail-body {
+  display: flex;
+  flex-direction: column;
+}
+.resve{
+	color:#B76E79;
+	  text-shadow: 5px 2px 5px white;
+  font-family: 'Lobster', cursive;
+	text-transform: uppercase;
+}
+
+.HolyGrail-nav {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .HolyGrail-body {
+    flex-direction: row;
+    flex: 1;
+  }
+  .HolyGrail-content {
+    flex: 1;
+  }
+  .HolyGrail-nav, .HolyGrail-ads {
+    /* 12em is the width of the columns */
+    flex: 0 0 12em;
+  }
+}
