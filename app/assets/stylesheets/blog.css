@@ -1,33 +1,18 @@
-
-.blog1{
-	text-align: center;
-	color: orange;
-	font-family: impact;
-}
-.meblog{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.meblogtext{
-	text-align: center;
-	font-size: 1.2em;
+header {
+  background-image:url('tiecake.png');
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 
-.eat{
-	color: orange;
-	font-size: 3em;
-	font-family: bold;
-	text-align: center;
-}
-.firstb{
-	padding-right: -89px;
-}
-
-.details{
-	padding-bottom: 2em;
-}
-.lastlogo{
-	text-align: center;
-	font-size: 25px;
+.group {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: center;
 }

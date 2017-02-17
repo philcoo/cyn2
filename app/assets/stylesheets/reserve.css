@@ -66,3 +66,31 @@
     flex: 0 0 12em;
   }
 }
+#custom{
+  padding: 5%;
+  border:  solid 5px;
+    border-radius: 45px; 
+    height: auto;
+    width: 80%;
+}
+#custom p{
+  font-size:20px;
+}
+.make{
+
+  margin:10%;
+}
+.img_cutom{
+  margin: 5%;
+}
+
+hr.style18 { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 5px 0; 
+  border-radius: 20px; 
+}
