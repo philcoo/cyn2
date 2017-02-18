@@ -90,3 +90,20 @@
   width: 100%;
  }
   
+  .foot {
+    background-color: black;
+    margin-top: 425px;
+    height: 10%;
+  }
+
+  .foot a{
+  padding:25px;
+  margin-top: 2px;
+  color: white;
+
+  }
+  .foot p{
+    font-size:25px;
+    font-family: impact;
+  }
+  
