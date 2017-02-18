@@ -5,9 +5,7 @@
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 100vh;
-  margin-top: 0;
-  margin-bottom: 0;
+  
 }
   #abouther{
     padding:auto;
@@ -54,7 +52,7 @@ opacity: 0.6;
 
 }.foot2 {
     background-color: gray;
-    margin-top: 255px;
+    margin-top: 155px;
     height: 20%;
   }
 
