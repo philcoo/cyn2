@@ -1,130 +1,110 @@
 
 <div class="home1">
- 
-
-        <nav>
+<!-- home-nav-bar -->
+  <nav>
     <div class="nav-wrapper">
       <div id="logoc">
-   <%= link_to 'C.C.C', orders_path %>
-   </div>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-      
-        <li><%= link_to 'Cakes', orders_path %></li>
-        
-      </ul>
-    </div>
-  </nav>
-        
- 
-
-
-  <div class="container">
-
-    <div class="tit">
-      <h1><span>C</span>ynthia <span>C</span>outure <span>C</span>akes</h1>
-    </div>
-  </div>
-  
-
- <p class="p"> Bakery Needs For All Occassions </p>
-        <p class="p">Homemade & Organically Delicious</p>
-
-  
-  <!-- about me page -->
-<div class="arrow animated bounce"></div>
-<footer>
-
-   <div class="icon2"  style="font-size:2.8em;">
-    
-  </div>
-</div>
-</footer>
-
-
-<div class="wapper1">
-
- <div class="details">
-          <a  class="btn btn-primary btn-block btn-large"> Live well with CCC.</a>
-        </div>
-        <div class="slider">
-    <ul class="slides">
-      <li>
-        <%= image_tag("cyn5.jpg", height:'270', width: '400',)  %> 
-        <div class="caption center-align" style="color:white ">
-          <h2>Cupcake Banquets</h2>
-           <h4 class="phrase1">Order any size and style</h4>
-        </div>
-      </li>
-      <li>
-        <%= image_tag("sweet.jpg")  %><!-- random image -->
-        <div class="caption left-align" style="color: #8B8989">
-          <h2>French Macarons</h2>
-          <h4 class="phrase">Decadent melt-in-your-mouth cookies</h4>
-        </div>
-      </li>
-      <li>
-       <%= image_tag("rescake4.jpg") %> <!-- random image -->
-        <div class="caption right-align" style="color:#2fcaf9">
-          <h1>Vegan/Primal/Paleo Friendly!</h1>
-           <h4 class="phrase2">Nutrient densed sweets</h4>
-        </div>
-      </li>
-      <li>
-
-       <%= image_tag("partycake.jpg", height:'270', width: '400',)  %><!-- random image -->
-        <div class="caption center-align" style="color: #808080">
-          <h1>Cake Pops</h1>
-          <h4 class="phrase">Elegant party treats</h4>
-        </div>
-      </li>
+       <%= link_to 'C.C.C', orders_path %>
+     </div>
+     <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li><%= link_to 'Cakes', orders_path %></li>
     </ul>
   </div>
-
-    <h1 id="me">About Me</h1>
-    <div class="container">
-
-    <div class="row">
-      <div class="col s5 push-s7"><span class="flow-text"> <div id="abouther"><h3> My Story</h3>
-      <p id="about1">
-         Many describe my passion for the art of cakes/desserts as"Dora the Explorer" lol.  Because I add my own twist, with not only organically grown ingredients but also using exotic fruits, multicultural inspirations and with pure love. Seeing  a smile on a person's face after eating something I've made, is my ultimate goal.
-
-  </p></span></div></div>
-
-      <div class="col s6 pull-s5"><span class="flow-text"> <%= image_tag("apic.png", :size => "360x580")  %>
-        <div id="abouther">
-      </span>
-      </div>
-</div>
-</div>
-</div>
-
-<div class="foot">
-<center>
-<p style="color:white;">C.C.C</p><br>
-<button class="waves-effect waves-light btn">
-  <a href="">About</a>
-  </button>
-  <button class="waves-effect waves-light btn">
-  <a href="">Cake</a>
-  </button class="waves-effect waves-light btn">
-  <button class="waves-effect waves-light btn">
-  <a href="">Custom Cake</a>
-  </button>
-  <button class="waves-effect waves-light btn">
-  <a href="">Contact</a>
-  </button><br>
-  <div>
-    <a href=""></a>
+</nav>
+<!--Nav-bar end -->
+<!-- main title -->
+<div class="container">
+  <div class="tit">
+    <h1><span>C</span>ynthia <span>C</span>outure <span>C</span>akes</h1>
   </div>
+</div>
+<p class="p"> Bakery Needs For All Occassions </p>
+<p class="p">Homemade & Organically Delicious</p>
+<!-- end -->
+<!-- slide image show -->
+<div class="wapper1">
+ <div class="details">
+  <a  class="btn btn-primary btn-block btn-large"> Live well with CCC.</a>
+</div>
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <%= image_tag("cyn5.jpg", height:'270', width: '400',)  %> 
+      <div class="caption center-align" style="color:white ">
+        <h2>Cupcake Banquets</h2>
+        <h4 class="phrase1">Order any size and style</h4>
+      </div>
+    </li>
+    <li>
+      <%= image_tag("sweet.jpg")  %><!-- random image -->
+      <div class="caption left-align" style="color: #8B8989">
+        <h2>French Macarons</h2>
+        <h4 class="phrase">Decadent melt-in-your-mouth cookies</h4>
+      </div>
+    </li>
+    <li>
+     <%= image_tag("rescake4.jpg") %> <!-- random image -->
+     <div class="caption right-align" style="color:#2fcaf9">
+      <h1>Vegan/Primal/Paleo Friendly!</h1>
+      <h4 class="phrase2">Nutrient densed sweets</h4>
+    </div>
+  </li>
+  <li>
+   <%= image_tag("partycake.jpg", height:'270', width: '400',)  %><!-- random image -->
+   <div class="caption center-align" style="color: #808080">
+    <h1>Cake Pops</h1>
+    <h4 class="phrase">Elegant party treats</h4>
+  </div>
+</li>
+</ul>
+</div>
+<!-- siled end here -->
+
+<!-- a bits of about me  -->
+<h1 id="me">About Me</h1>
+<div class="container">
+  <div class="row">
+    <div class="col s5 push-s7"><span class="flow-text"> <div id="abouther"><h3> My Story</h3>
+      <p id="about1">
+       Many describe my passion for the art of cakes/desserts as"Dora the Explorer" lol.  Because I add my own twist, with not only organically grown ingredients but also using exotic fruits, multicultural inspirations and with pure love. Seeing  a smile on a person's face after eating something I've made, is my ultimate goal.
+
+     </p></span></div></div>
+
+     <div class="col s6 pull-s5"><span class="flow-text"> <%= image_tag("apic.png", :size => "360x580")  %>
+      <div id="abouther">
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+<!-- about me end here -->
+<!-- footer -->
+<div class="foot">
+  <center>
+    <p style="color:white;">C.C.C</p><br>
     <button class="waves-effect waves-light btn">
-  <a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i></a></button>
-   <button class="waves-effect waves-light btn">
-  </a> &nbsp;&nbsp;
-  <a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true"></i></a></button>
+      <a href="about">About</a>
+    </button>
+    <button class="waves-effect waves-light btn">
+      <%= link_to 'Cakes', orders_path %>
+    </button class="waves-effect waves-light btn">
+    <button class="waves-effect waves-light btn">
+      <a href="make">Custom Cake</a>
+    </button>
+    <button class="waves-effect waves-light btn">
+      <a href="contact">Contact</a>
+    </button><br>
+    <div>
+      <a href="">Pilocy</a>
+    </div>
+    <button class="waves-effect waves-light btn">
+      <a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i></a></button>
+      <button class="waves-effect waves-light btn">
+      </a> &nbsp;&nbsp;
+      <a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true"></i></a></button>
 
-  </a>
-</button>
+    </a>
+    <h6 style="color:white">Made in © 2017 | Philco Michel</h6>
+  </button>
 </center>
-
-
 </div>

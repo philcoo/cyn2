@@ -52,7 +52,23 @@ opacity: 0.6;
 
 
 
-}
+}.foot2 {
+    background-color: gray;
+    margin-top: 315px;
+    height: 20%;
+  }
+
+  .foot2 a{
+  padding:25px;
+  margin-top: 2px;
+  color: white;
+
+  }
+  .foot2 p{
+    font-size:25px;
+    font-family: impact;
+  }
+  
 .aboutp{
   color:white;
   

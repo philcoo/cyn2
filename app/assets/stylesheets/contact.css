@@ -56,3 +56,19 @@ form{
    margin-left: 30%;
   margin-right:30%;
 }
+.foot3 {
+    background-color: black;
+    margin-top: 525px;
+    height: 15%;
+  }
+
+  .foot3 a{
+  padding:25px;
+  margin-top: 2px;
+  color: white;
+
+  }
+  .foot3 p{
+    font-size:25px;
+    font-family: impact;
+  }
