@@ -1,24 +1,34 @@
-<div class="wapper1">
-	<div id="firstcake">
-		<div class="col s5 pull-s7" style="margin-top:3em">
-		<div class="tit">
-      <h1><span>T</span>he <span> B</span>eehive  <span> C</span>ake</h1>
-    </div>
-    </<div>
-		</div>
+
+<nav>
+	<ul class="drop-down closed">
+		<li><a href="index" class="nav-button">Home</a></li>
+		<li><%= link_to 'Cakes', orders_path %></li>
+		<li><a href="about">About Me</a></li>
+
+
+	</ul>
+</nav>
+<div class="make">
+<div class="learnmore">
+	<div class="tit2">
+
+		<h1><span>T</span>he <span> B</span>eehive  <span> C</span>ake</h1>
 	</div>
-	<div class="zoom">
-	</div>
-		<div class="product1">
-			<div id="thumb">
-				<%= image_tag("bee.jpg")  %> 
-				<div class="col s2">
-				<div class="description4">
-				<p class="summary">This beehive cake is sure to bring tears of joy any mother-to-bee. It's was designed to make it appear like there's working bees in the beehive safe housing a sleeping baby. This cake is a definite crowd pleaser! It's has two tiers of four moist red velvet cake layers that is separated with a cloudy whipped cream cheese icing. The same luscious icing covers the entire cake that is than garnished with pipped buttercream, hexagon shaped LMF fondant, fondant bees, wooden sign, sleeping dressed baby with wings and beehive with lights.
+	
+		<div class="container">
+			<div class="img_cutom">
+				<%= image_tag("bee.jpg", :size => "660x680")  %> 
+
+			</div>
+			<div class="col s6">
+				<div id="custom">
+					<h3>The Beehive Cake</h3>
+					<hr class="style18">
+					<p> This beehive cake is sure to bring tears of joy any mother-to-bee. It's was designed to make it appear like there's working bees in the beehive safe housing a sleeping baby. This cake is a definite crowd pleaser! It's has two tiers of four moist red velvet cake layers that is separated with a cloudy whipped cream cheese icing. The same luscious icing covers the entire cake that is than garnished with pipped buttercream, hexagon shaped LMF fondant, fondant bees, wooden sign, sleeping dressed baby with wings and beehive with lights.
 					</p>
-					<p class="summary">
-					<h4>Ingredients</h4>Oil Sugar Eggs
-Vanilla/Almond extract 
+					<h4>Ingredients</h4>
+					<p>
+						Vanilla/Almond extract 
 Red dye
 Cocoa powder 
 Instant roasted coffee
@@ -30,15 +40,56 @@ Vinegar
 Cream cheese
 Powdered sugar
 LMF fondant 
+ </p>
+						<hr class="style18">
+						<div class="col s6 pull-s5">
 
-					</p>	
-					<div id="back_ccc">
-				<button> <%= link_to 'Back', orders_path %></button>
-			</div>
+						</div>
+							
+					</div>
+				</div>
 			</div>
 		</div>
+		<div id="back_ccc">
+							<button> <%= link_to 'Back', orders_path %></button>
+						</div>
 	</div>
+
+
+	<div class="foot">
+		<center>
+			<p style="color:white;">C.C.C</p><br>
+			<button class="waves-effect waves-light btn">
+				<a href="about">About</a>
+			</button>
+			<button class="waves-effect waves-light btn">
+				<%= link_to 'Cakes', orders_path %>
+			</button class="waves-effect waves-light btn">
+			<button class="waves-effect waves-light btn">
+				<a href="make">Custom Cake</a>
+			</button>
+			<button class="waves-effect waves-light btn">
+				<a href="contact">Contact</a>
+			</button><br>
+			<div>
+				<a href=""></a>
+			</div>
+			<button class="waves-effect waves-light btn">
+				<a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i></a></button>
+				<button class="waves-effect waves-light btn">
+				</a> &nbsp;&nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true"></i></a></button>
+
+			</a>
+			<h6 style="color:white">Made in FL 2017 Philco Michel </h6>
+		</button>
+	</center>
+
+
 </div>
+
+
+
 
 
 

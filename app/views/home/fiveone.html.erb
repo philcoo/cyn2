@@ -1,27 +1,33 @@
-<div class="wapper1">
-	<div id="firstcake">
-		<div class="col s5 pull-s7" style="margin-top:3em">
-			<div class="tit">
-				<h1><span>T</span>eddy  <span> B</span>ear  <span> C</span>ake</h1>
+
+
+<nav>
+	<ul class="drop-down closed">
+		<li><a href="index" class="nav-button">Home</a></li>
+		<li><%= link_to 'Cakes', orders_path %></li>
+		<li><a href="about">About Me</a></li>
+
+
+	</ul>
+</nav>
+<div class="make">
+<div class="learnmore">
+	<div class="tit2">
+	<h1><span>T</span>eddy  <span> B</span>ear  <span> C</span>ake</h1>
+	</div>
+	
+		<div class="container">
+			<div class="img_cutom">
+				<%= image_tag("bear.jpg", :size => "660x680")  %> 
+
 			</div>
-			</<div>
-		</div>
-
-	</div>
-	<div class="zoom">
-	</div>
-	<div class="product">
-		<div id="thumb">
-			<%= image_tag("bear.jpg")  %> 
-		</div>
-		<div class="info">
-			
-			<div class="row">
-				<div class="col s1">
-					<div class="description2">
-						<p class="summary"><h4>Ingredients</h4>Butter
-
-							Sugar
+			<div class="col s6">
+				<div id="custom">
+					<h3>The Teddy Bear Cake</h3>
+					<hr class="style18">
+					<p> This "jaw dropping" realistic teddy bear cake will make any toddlers day! It's gluten free and moisten with vanilla syrup in each white chocolate raspberry layer. Separated by an exotic scrumptious no bake passion fruit cheesecake. Covered entirely with whipped vanilla buttercream, garnished with stiff buttercream, fondant, edible princess crown, a ribbon and a homemade iced red velvet cupcake topped with a happy birthday sign and candle.
+					</p>
+					<h4>Ingredients</h4>
+					<p> Sugar
 
 							Free range eggs
 
@@ -45,25 +51,64 @@
 
 							Baking powder/soda
 
-							Powdered sugar
+							Powdered sugar</p>
+						<hr class="style18">
+						<div class="col s6 pull-s5">
 
-
-						</p>	
-					</div>
-				</div>
-				<div class="col s3">
-					<div class="description3" style="width:250px;">
-						<p class="summary">This "jaw dropping" realistic teddy bear cake will make any toddlers day! It's gluten free and moisten with vanilla syrup in each white chocolate raspberry layer. Separated by an exotic scrumptious no bake passion fruit cheesecake. Covered entirely with whipped vanilla buttercream, garnished with stiff buttercream, fondant, edible princess crown, a ribbon and a homemade iced red velvet cupcake topped with a happy birthday sign and candle.
-						</p>
-						<div id="back_ccc">
-							<button> <%= link_to 'C.C.C', orders_path %></button>
-						</div>	
+						</div>
+							
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="back_ccc">
+							<button> <%= link_to 'Back', orders_path %></button>
+						</div>
 	</div>
+
+
+	<div class="foot">
+		<center>
+			<p style="color:white;">C.C.C</p><br>
+			<button class="waves-effect waves-light btn">
+				<a href="about">About</a>
+			</button>
+			<button class="waves-effect waves-light btn">
+				<%= link_to 'Cakes', orders_path %>
+			</button class="waves-effect waves-light btn">
+			<button class="waves-effect waves-light btn">
+				<a href="make">Custom Cake</a>
+			</button>
+			<button class="waves-effect waves-light btn">
+				<a href="contact">Contact</a>
+			</button><br>
+			<div>
+				<a href=""></a>
+			</div>
+			<button class="waves-effect waves-light btn">
+				<a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i></a></button>
+				<button class="waves-effect waves-light btn">
+				</a> &nbsp;&nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true"></i></a></button>
+
+			</a>
+			<h6 style="color:white">Made in FL 2017 Philco Michel </h6>
+		</button>
+	</center>
+
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

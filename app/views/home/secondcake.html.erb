@@ -1,26 +1,35 @@
-<div class="wapper1">
-	<div id="firstcake">
-		<div class="col s5 pull-s7" style="margin-top:3em">
-			<div class="tit">
-				<h1> <span>T</span>he <span> P</span>iano <span> C</span>ake</h1>
+
+
+<nav>
+	<ul class="drop-down closed">
+		<li><a href="index" class="nav-button">Home</a></li>
+		<li><%= link_to 'Cakes', orders_path %></li>
+		<li><a href="about">About Me</a></li>
+
+
+	</ul>
+</nav>
+<div class="make">
+<div class="learnmore">
+	<div class="tit2">
+
+		<h1> <span>T</span>he <span> P</span>iano <span> C</span>ake</h1>
+	</div>
+	
+		<div class="container">
+			<div class="img_cutom">
+				<%= image_tag("sash.jpg", :size => "660x680")  %> 
+
 			</div>
-			</<div>
-		</div>
-
-	</div>
-	<div class="zoom">
-	</div>
-	<div class="product">
-		<div id="thumb2">
-			<%= image_tag("sash.jpg")  %> 
-		</div>
-		<div class="info">
-			<div class="row">
-				<div class="col s8">
-					<div class="description2">
-						<p class="summary"><h4>Ingredients</h4>
-
-							Butter Sugar
+			<div class="col s6">
+				<div id="custom">
+					<h3>The Piano Cake</h3>
+					<hr class="style18">
+					<p> This piano cake is sure to make a "wow factor" for any pianist. This cake has two super moist funfetti cake layers smothered with luscious whipped cream cheese icing. Covered entirety by the same irresistible cream cheese icing. Garnished with LMF fondant, fondant covered kit-kat bars for the sharp/fault keys and an edible music sheet.
+					</p>
+					<h4>Ingredients</h4>
+					<p>
+						Butter Sugar
 							Vanilla/ almond extract
 							Free range eggs
 							Sprinkles
@@ -31,25 +40,56 @@
 							Nutmeg 
 							Cream cheese
 							Powdered sugar
-							LMF fondant 
+							LMF fondant  </p>
+						<hr class="style18">
+						<div class="col s6 pull-s5">
 
-
-						</p>	
-					</div>
-				</div>
-				<div class="col s3">
-					<div class="description3" style="margin-top:30em">
-						<p class="summary">This piano cake is sure to make a "wow factor" for any pianist. This cake has two super moist funfetti cake layers smothered with luscious whipped cream cheese icing. Covered entirety by the same irresistible cream cheese icing. Garnished with LMF fondant, fondant covered kit-kat bars for the sharp/fault keys and an edible music sheet.
-						</p>
-						<div id="back_ccc">
-							<button> <%= link_to 'C.C.C', orders_path %></button>
-						</div>	
+						</div>
+							
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="back_ccc">
+							<button> <%= link_to 'Back', orders_path %></button>
+						</div>
 	</div>
+
+
+	<div class="foot">
+		<center>
+			<p style="color:white;">C.C.C</p><br>
+			<button class="waves-effect waves-light btn">
+				<a href="">About</a>
+			</button>
+			<button class="waves-effect waves-light btn">
+				<a href="">Cake</a>
+			</button class="waves-effect waves-light btn">
+			<button class="waves-effect waves-light btn">
+				<a href="">Custom Cake</a>
+			</button>
+			<button class="waves-effect waves-light btn">
+				<a href="">Contact</a>
+			</button><br>
+			<div>
+				<a href=""></a>
+			</div>
+			<button class="waves-effect waves-light btn">
+				<a href="https://www.instagram.com/cynthia_couture_cakes/?hl=en"><i class="fa fa-instagram" aria-hidden="true">IG</i></a></button>
+				<button class="waves-effect waves-light btn">
+				</a> &nbsp;&nbsp;
+				<a href="https://www.facebook.com/profile.php?id=100013551661548"><i class="fa fa-facebook" aria-hidden="true"></i></a></button>
+
+			</a>
+			<h6 style="color:white">Made in FL 2017 Philco Michel </h6>
+		</button>
+	</center>
+
+
 </div>
+
+
+
 
 
 
