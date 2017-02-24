@@ -47,13 +47,14 @@
 }
 .b{
     color: white;
-    text-shadow: 2px black;
+    text-shadow: 5px 2px 5px green;
     font-size: 5em;
     text-align: center;
     font-family: 'Tangerine', cursive;
 }
 .p{
     color: white;
+    text-shadow: 5px 2px 5px green;
     font-size: 5em;
 	  text-align: center;
     font-family: 'Tangerine', cursive;
