@@ -47,15 +47,15 @@
 }
 .b{
     color: white;
-    text-shadow: 2px 2px 2px green;
-    font-size: 3em;
+    text-shadow: 2px 2px 2px gray;
+    font-size:5em;
     text-align: center;
     font-family: 'Tangerine', cursive;
 }
 .p{
     color: white;
-    text-shadow: 2px 2px 2px green;
-    font-size: 3em;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 5em;
 	  text-align: center;
     font-family: 'Tangerine', cursive;
 }
