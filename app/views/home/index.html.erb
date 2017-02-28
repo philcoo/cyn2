@@ -1,16 +1,18 @@
 
 <div class="home1">
-<!-- home-nav-bar -->
   <nav>
-    <div class="nav-wrapper">
-      <div id="logoc">
-       <%= link_to 'C.C.C', orders_path %>
-     </div>
-     <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><%= link_to 'Cakes', orders_path %></li>
-    </ul>
-  </div>
-</nav>
+         <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
+         <ul class="main">
+                <a href="about">About</a>
+               <li><a href="">Services</a></li>
+               <li><a href="contact">Contact</a></li>
+                <%= link_to 'Cakes', orders_path %>
+                   <a href="make">Custom Cake</a>
+               <li><a href="">Sign up</a></li>
+               <li><a href="">Settings</a></li>
+         </ul> 
+         <label for="css-toggle-menu" id="css-toggle-menu"></label> 
+   </nav>
 <!--Nav-bar end -->
 <!-- main title -->
 <div class="container">
