@@ -1,13 +1,15 @@
-
 <nav>
-	<ul class="drop-down closed">
-		<li><a href="index" class="nav-button">Home</a></li>
-		<li><%= link_to 'Cakes', orders_path %></li>
-		<li><a href="about">About Me</a></li>
-
-
-	</ul>
-</nav>
+         <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
+         <ul class="main">
+            <li><a href="index" class="nav-button">Home</a></li>
+      <li><a href="blog">Gallery</a></li>
+      <li><a href="make">Custom Cake</a></li>
+      <li><%= link_to 'Cakes', orders_path %></li>
+      <li><a href="contact">contact me</a></li>
+         </ul> 
+         <label for="css-toggle-menu" id="css-toggle-menu"></label> 
+   </nav>
+		
 <div class="make">
 <div class="learnmore">
 	<div class="tit2">

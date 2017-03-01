@@ -3,13 +3,12 @@
   <nav>
          <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
          <ul class="main">
-                <a href="about">About</a>
+                <li><a href="about">About</a></li>
                <li><a href="">Services</a></li>
                <li><a href="contact">Contact</a></li>
-                <%= link_to 'Cakes', orders_path %>
-                   <a href="make">Custom Cake</a>
-               <li><a href="">Sign up</a></li>
-               <li><a href="">Settings</a></li>
+               <li><a href="make">Custom Cake</a></li>
+                <li><%= link_to 'Cakes', orders_path %></li>
+                   
          </ul> 
          <label for="css-toggle-menu" id="css-toggle-menu"></label> 
    </nav>
