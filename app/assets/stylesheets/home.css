@@ -117,78 +117,185 @@
   }
   
 
+.bg-cover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 0;
+  transition: all 350ms ease;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 
-   nav ul{
-  display: flex; 
-  flex-wrap: wrap; 
-  max-width: 100%; 
-  margin: 0 auto;   
-   background: gold;
+.prompt {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  line-height: 114px;
+  font-family: Georgia;
+  color: #666;
 }
-nav ul,
-nav li{
-  flex: 5;  
-}
-nav li:last-child{border-bottom: none;}
-nav a{
-  text-decoration: none;
-  color: inherit;
+
+.reveal {
+  opacity: .85;
   display: block;
-  font-size: 1.8rem;
+  pointer-events: auto;
+  visibility: visible;
 }
-nav a:hover{
-  background: #adacac;
+
+.hamburger-shell {
+  margin: 0;
+  position: fixed;
+  overflow: hidden;
+  width: 70px;
+  height: 100px;
+  overflow: auto;
+  left: calc(100% - 100px);
+  top: 20px;
+}
+
+.top, .middle{
+  position: absolute;
+  width: 62px;
+  height: 10px;
+  background-color: black;
+  transition: all 350ms ease-in-out;
+  top: 20px;
+}
+
+.middle {
+  top: 40px;
+}
+
+#menu {
+  position: fixed;
+  left: calc(100% - 292px);
+  top: 10px;
   color: black;
-}
-nav li{
-  position: relative;
-  line-height: 50px;
-  color: #fff;
-  text-align: center;
-}  
-nav input,
-nav label{
   display: none;
-  width: 36px; 
-  height: 36px; 
-  background: #555; 
-  color: #fff; 
-  text-align: center; 
-  line-height: 36px;
-  font-size: 1.6rem;
-  border-radius: 4px;
-} 
-nav label{position: absolute; top: 8px; left: 10px; transition: .4s;}
-nav label:hover{cursor:pointer;}
-nav label:after{
-  font-family: FontAwesome;
-  font-size: 24px;
-  content: "\f0c9";
-  text-align: center;
+  margin: 120px 30px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #333;
+  padding: 24px;
+  width: 200px;
+  text-align: right;
 }
 
-/*************** MEDIA QUERIES *******************/
-@media only screen and (max-width: 1080px){
-  nav ul{
-    transform: translateY(0);
-    box-shadow: 0 0 5px rgba(0,0,0, .7);
-      transition: all .5s;
-  }
-  nav li{
-    flex: none; 
-    width: 100%;
-    border-bottom: solid 2px #777;
-  } 
-  nav input[type="checkbox"]:checked + ul{
-    transform: translateY(-100%);
-    width: 100%;
-    background: #999;   
-      transition: all .5s;
-  }
-  nav label{display: block;}  
-  nav input[type="checkbox"]:checked + ul li:nth-child(1){
-    background: #777; 
-    color: #fff;
+#menu a li {
+  text-decoration: none!important;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid black;
+  list-style: none;
+  color: #555;
+  transition: all 150ms ease;
+}
 
-  }  
+#menu a li:hover {
+  color: #00abff;
+  padding-right: 3px;
+}
+
+#menu a li:hover:after {
+}
+
+
+
+#menu a {
+  text-decoration: none;
+}
+
+.rotate {
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  top: 30px;
+  background-color: red;
+  height: 2px;
+}
+
+.rotate-back {
+  transform: rotate(-225deg);
+  -webkit-transform: rotate(-225deg);
+  top: 30px;
+  background-color: red;
+  height: 2px;
+}
+
+.top {
+-webkit-animation-delay: 100ms;
+}
+
+.middle {
+-webkit-animation-delay: 250ms;
+}
+
+.bottom {
+  -webkit-animation-delay: 400ms;
+}
+
+.menu-name {
+  font-family: Verdana;
+  font-weight: 900;
+  color: black;
+  font-size: 19.5px;
+  text-decoration: none;
+  position: absolute;
+  top: 56px;
+  left: -1px;
+  transition: all 350ms;
+}
+
+.bump {
+  top: 64px;
+  color: red;
+}
+
+.responsive-box {
+  background-color: #ddd;
+  margin: 2%;
+  float: left;
+}
+
+.box-1 {
+  width: 96%;
+  height: 300px;
+}
+
+.box-2, .box-3, .box-4 {
+  width: 29.333%;
+  height: 140px;
+}
+
+.box-5 {
+  width: 62.666%;
+  height: 492px;
+}
+
+.header {
+  width: 100%;
+  height: 120px;
+}
+
+.par-1, .par-2, .par-3 {
+  width: 70%;
+  margin: 1% 2%;
+  background-color: #888;
+  height: 16px;
+  float: left;
+}
+
+.par-2 {
+  width: 56%;
+}
+
+.par-3 {
+  width: 64%;
 }

@@ -1,14 +1,19 @@
 <div class="contactme">
 
-  <nav>
-  <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
-    <ul class="drop-down closed">
-      <li><a href="index" class="nav-button">Home</a></li>
-      <li><%= link_to 'Cakes', orders_path %></li>
-      <li><a href="about">About Me</a></li>
-    </ul>
-    <label for="css-toggle-menu" id="css-toggle-menu"></label> 
-  </nav>
+  <a class="hamburger-shell">
+  <div class="hamb top"></div>
+    <div class="hamb middle"></div>
+  <div class="menu-name">MENU</div>
+
+<ul id="menu">
+    <a href="home"> <li>Home</li></a>
+    <a href="about"> <li>About</li></a>
+   <li>  <%= link_to 'Cakes', orders_path %></li></a>
+    <a href="blog"> <li>Garllery</li></a>
+    <a href="contact"> <li>Contact</li></a>
+</ul>
+</a>  
+
   
   <h1 id="cme">Contact Me</h1>
   <!-- the contact form -->

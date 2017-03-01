@@ -1,17 +1,20 @@
 
 <div class="home1">
-  <nav>
-         <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu"> 
-         <ul class="main">
-                <li><a href="about">About</a></li>
-               <li><a href="">Services</a></li>
-               <li><a href="contact">Contact</a></li>
-               <li><a href="make">Custom Cake</a></li>
-                <li><%= link_to 'Cakes', orders_path %></li>
-                   
-         </ul> 
-         <label for="css-toggle-menu" id="css-toggle-menu"></label> 
-   </nav>
+ <a class="hamburger-shell">
+  <div class="hamb top"></div>
+    <div class="hamb middle"></div>
+  <div class="menu-name">MENU</div>
+
+<ul id="menu">
+    <a href="home"> <li>Home</li></a>
+    <a href="about"> <li>About</li></a>
+   <li>  <%= link_to 'Cakes', orders_path %></li></a>
+    <a href="blog"> <li>Garllery</li></a>
+    <a href="contact"> <li>Contact</li></a>
+</ul>
+</a>  
+
+
 <!--Nav-bar end -->
 <!-- main title -->
 <div class="container">
