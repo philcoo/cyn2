@@ -28,6 +28,8 @@ Rails.application.routes.draw do
   get 'home/next4'
   get 'home/next5'
   get 'home/next6'
+
+  get 'home/testimonies'
  
   
 

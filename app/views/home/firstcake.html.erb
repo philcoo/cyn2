@@ -1,17 +1,21 @@
 
- <a class="hamburger-shell">
-  <div class="hamb top"></div>
-    <div class="hamb middle"></div>
-  <div class="menu-name">MENU</div>
-
-<ul id="menu">
-    <a href="home"> <li>Home</li></a>
-    <a href="about"> <li>About</li></a>
-   <li>  <%= link_to 'Cakes', orders_path %></li></a>
-    <a href="blog"> <li>Garllery</li></a>
-    <a href="contact"> <li>Contact</li></a>
-</ul>
-</a>  
+ <nav role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+    <li><a href="home">Home</a></li>
+     <li><a href="about">About</a></li>
+     <li><%= link_to 'Cakes', orders_path %> </li>
+       <li><a href="blog">Gallery</a></li>
+       <li><a href="make">Custom Cake</a></li>
+     <li><a href="tesimonies">Testimonials</a></li>
+     
+    </ul>
+  </div>
+</nav>
 
 		
 <div class="make">
