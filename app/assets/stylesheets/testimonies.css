@@ -5,7 +5,7 @@ figure.snip1167 {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 10px 1%;
+  margin: 1%;
   min-width: 220px;
   max-width: 350px;
   width: 100%;
@@ -19,8 +19,8 @@ figure.snip1167 * {
 }
 figure.snip1167 img {
   max-width: 100%;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 150px;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
@@ -55,27 +55,12 @@ figure.snip1167 blockquote:before {
 }
 figure.snip1167 blockquote:after {
   content: "\201D";
-  right: 20px;
+  right: 30px;
   bottom: 0;
 }
-figure.snip1167 .author {
-  padding: 15px;
-  margin: 0;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-align: center;
-}
-figure.snip1167 .author h5 {
-  opacity: 0.8;
-  margin: 0;
-  font-weight: 800;
-}
-figure.snip1167 .author h5 span {
-  font-weight: 400;
-  text-transform: none;
-  display: block;
-}
+
+
 
 #testify{
-  margin-top: 45px;
+  margin-top: 95px;
 }

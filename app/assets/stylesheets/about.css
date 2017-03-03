@@ -53,8 +53,8 @@ opacity: 0.6;
 
 }.foot2 {
     background-color: gray;
-    margin-top: 155px;
-    height: 20%;
+    margin-top: 515px;
+    height: 50%;
   }
 
   .foot2 a{
@@ -79,7 +79,7 @@ opacity: 0.6;
 }
 @media screen and (min-width: 600px) {
   .cyns{
-    height: 100%;
+    height: 1200px;
     max-width:100%;
 
   }
