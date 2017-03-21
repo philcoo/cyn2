@@ -20,6 +20,9 @@ Rails.application.routes.draw do
   get 'home/fiveone'
   get 'home/sixone'
   get 'home/make'
+  get 'home/sevenone'
+  get 'home/eightone'
+  get 'home/nineone'
   # next cake page routes
   get 'home/next'
   get 'home/next1'
